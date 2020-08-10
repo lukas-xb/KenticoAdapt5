@@ -24,7 +24,7 @@
         "adapt-contrib-bookmarking": "*",
         "adapt-contrib-languagePicker": "*",
         "adapt-narrativeCode": "*",
-        "adapt-cdmcq": "*",
-        "adapt-textWithCode": "*"
+        "adapt-textWithCode": "*",
+        "adapt-cmcq": "*"
     }
 }

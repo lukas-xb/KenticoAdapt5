@@ -1,10 +1,7 @@
 {
   "name": "adapt-textWithCode",
-  "repository": "git://github.com/CollierCZ/adapt-textWithCode.git",
   "version": "1.0.0",
   "framework": ">=2.1.0",
-  "homepage": "https://github.com/CollierCZ/adapt-textWithCode",
-  "issues": "https://github.com/CollierCZ/adapt-textWithCode/issues",
   "displayName": "Text with Code",
   "component": "text",
   "description": "A simple core contributed text component with the added function of highlighting code",
@@ -20,7 +17,6 @@
     "tag": "v1.0.0",
     "commit": "54a4c2c124f3e10821911997df5653b00cc1cfa1"
   },
-  "_source": "git://github.com/CollierCZ/adapt-textWithCode.git",
   "_target": "1.0.0",
   "_originalSource": "adapt-textWithCode",
   "_direct": true

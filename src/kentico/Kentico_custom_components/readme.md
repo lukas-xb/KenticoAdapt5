@@ -7,3 +7,5 @@ https://github.com/CollierCZ/adapt-textWithCode
 https://github.com/CollierCZ/adapt-cmcq
 
 And they would need to be updated + published on adapt - https://www.adaptlearning.org/index.php/plugin-browser/ to be installable via Adapt CLI
+
+These components should be manually copied to "src/components" folder.

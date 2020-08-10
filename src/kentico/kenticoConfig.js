@@ -6,9 +6,9 @@ define({
   // courseId: 'dev05-12', // MVC Developer - Identity
   
   // ===== Courses for business users =====
-  // courseId: "dev03-12", // MVC Developer - Essentials
+  courseId: "dev03-12", // MVC Developer - Essentials
   // courseId: 'business01-12', // Content management
-  courseId: 'business02-12', // Online marketing
+  // courseId: 'business02-12', // Online marketing
   // courseId: 'business03-12', // Personalization
   language: 'en', // Language of course (only en supported right now)
 

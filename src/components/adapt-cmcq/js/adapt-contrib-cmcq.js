@@ -1,12 +1,12 @@
 define([
   'core/js/adapt',
-  './mcqView',
+  './cmcqView',
   'core/js/models/itemsQuestionModel'
-], function(Adapt, McqView, ItemsQuestionModel) {
+], function(Adapt, cmcqView, ItemsQuestionModel) {
 
-  return Adapt.register("mcq", {
-    view: McqView,
-    // Extend ItemsQuestionModel to distinguish McqModel in
+  return Adapt.register("cmcq", {
+    view: cmcqView,
+    // Extend ItemsQuestionModel to distinguish cmcqModel in
     // the inheritance chain and allow targeted model extensions.
     model: ItemsQuestionModel.extend({})
   });

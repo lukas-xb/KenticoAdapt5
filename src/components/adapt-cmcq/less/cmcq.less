@@ -1,4 +1,4 @@
-.mcq {
+.cmcq {
   &__item {
     position: relative;
   }
@@ -26,7 +26,7 @@
   }
 
   // --------------------------------------------------
-  // MCQ item icons
+  // cmcq item icons
   // --------------------------------------------------
   &__item-answer-icon.is-radio .icon {
     .icon-radio-unchecked;
@@ -37,13 +37,13 @@
   }
 
   &__item-label.is-selected {
-    .mcq__item-answer-icon.is-radio .icon {
+    .cmcq__item-answer-icon.is-radio .icon {
       .icon-radio-checked;
     }
   }
 
   &__item-label.is-selected {
-    .mcq__item-answer-icon.is-checkbox .icon {
+    .cmcq__item-answer-icon.is-checkbox .icon {
       .icon-checkbox-checked;
     }
   }
@@ -61,7 +61,7 @@
   // Class to show the selection icons until the component is complete
   // --------------------------------------------------
   &__widget:not(.is-complete) {
-    .mcq__item-answer-icon {
+    .cmcq__item-answer-icon {
       display: block;
     }
   }
@@ -71,14 +71,14 @@
   // Class to show the users selection
   // --------------------------------------------------
   &__widget.show-user-answer {
-    .is-correct .is-selected .mcq__item-correct-icon,
-    .is-incorrect .is-selected .mcq__item-incorrect-icon {
+    .is-correct .is-selected .cmcq__item-correct-icon,
+    .is-incorrect .is-selected .cmcq__item-incorrect-icon {
       display: block;
     }
   }
 
   &__widget.show-user-answer {
-    .mcq__item:not(.is-correct):not(.is-incorrect) .is-selected .mcq__item-answer-icon {
+    .cmcq__item:not(.is-correct):not(.is-incorrect) .is-selected .cmcq__item-answer-icon {
       display: block;
     }
   }
@@ -88,14 +88,14 @@
   // Class to show the correct answers
   // --------------------------------------------------
   &__widget.show-correct-answer {
-    .is-correct .is-selected .mcq__item-correct-icon,
-    .is-incorrect .is-selected .mcq__item-correct-icon {
+    .is-correct .is-selected .cmcq__item-correct-icon,
+    .is-incorrect .is-selected .cmcq__item-correct-icon {
       display: block;
     }
   }
 
   &__widget.show-correct-answer {
-    .mcq__item:not(.is-correct):not(.is-incorrect) .is-selected .mcq__item-answer-icon {
+    .cmcq__item:not(.is-correct):not(.is-incorrect) .is-selected .cmcq__item-answer-icon {
       display: block;
     }
   }
