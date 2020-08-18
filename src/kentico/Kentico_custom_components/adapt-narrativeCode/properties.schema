@@ -97,26 +97,14 @@
             "translatable": true
           },
           "code": {
-              "type": "object",
-              "title": "Narrative code",
-              "properties":{
-                "src": {
-                  "type": "string",
-                  "required": true,
-                  "default": "",
-                  "title": "Enter your code",
-                  "inputType": "TextArea",
-                  "help": "Enter the code you would like to have highlighted"
-                },
-                "lang": {
-                  "type": "string",
-                  "required": true,
-                  "default": "",
-                  "inputType": "Text",
-                  "help": "The programming language to use for syntax highlighting",
-                  "translatable": false
-                }
-              }
+              "type": "string",
+              "required": false,
+              "default": "",
+              "title": "Code text",
+              "inputType": "TextArea",
+              "validators": [],
+              "help": "",
+              "translatable": false
             },
           "strapline": {
             "type": "string",
