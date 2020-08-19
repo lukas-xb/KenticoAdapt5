@@ -4,7 +4,7 @@ define([
   'core/js/kentico/prism'
 ], function(Adapt, QuestionView) {
 
-  var cmcqView = QuestionView.extend({
+  var McqView = QuestionView.extend({
 
     events: {
       'focus .js-item-input': 'onItemFocus',
@@ -37,9 +37,9 @@ define([
     onQuestionRendered: function() {
       this.setReadyStatus();
       this.update();
-
-      // Kentico custom
-      Prism.highlightAll();
+      
+        // Kentico custom
+        Prism.highlightAll();
     },
 
     onKeyPress: function(event) {
@@ -142,7 +142,7 @@ define([
 
         var index = itemModel.get('_index');
         var $itemInput = this.$('.js-item-input').filter('[data-adapt-index="' + index + '"]');
-        var $item = $itemInput.parents('.js-cmcq-item');
+        var $item = $itemInput.parents('.js-mcq-item');
 
         if (isInteractive || !canShowMarking) {
           // Remove item marking
@@ -174,6 +174,6 @@ define([
 
   });
 
-  return cmcqView;
+  return McqView;
 
 });
