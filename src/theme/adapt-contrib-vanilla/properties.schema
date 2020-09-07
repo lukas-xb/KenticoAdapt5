@@ -57,7 +57,7 @@
             "title": "Heading colour",
             "type": "string",
             "inputType": "ColourPicker",
-            "default": "#36CDE8",
+            "default": "#3553B8",
             "help": "Global title colour"
           },
           "heading-color-inverted": {
@@ -79,7 +79,7 @@
             "title": "Item colour",
             "type": "string",
             "inputType": "ColourPicker",
-            "default": "#36CDE8",
+            "default": "#3553B8",
             "help": "Item background colour"
           },
           "item-color-inverted": {
@@ -418,7 +418,7 @@
             "title": "Notify colour",
             "type": "string",
             "inputType": "ColourPicker",
-            "default": "#36CDE8",
+            "default": "#3553B8",
             "help": "Notify background colour"
           },
           "notify-inverted": {

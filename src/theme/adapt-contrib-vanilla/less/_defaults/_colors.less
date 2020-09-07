@@ -6,6 +6,15 @@
 @grey: #9096A0;
 @greyDark: #4D4D4D;
 
+@kentico-blue: #3553B8;
+@kentico-black: #231F20;
+@kentico-orange: #F05A22;
+@kentico-red: #B72929;
+@kentico-grey: #E9E8E8;
+@kentico-grey-dark: #D3D2D2;
+@kentico-grey-darker: #918F8F;
+@kentico-green: #2C9E7E;
+
 // These variables are used to change the colour of text
 // Primary use is for altering the text colour over a background image
 // See ../project/theme-extras.less for block mixin
@@ -22,7 +31,7 @@
 // --------------------------------------------------
 // Body, link, and heading colour
 // --------------------------------------------------
-@font-color: @greyDark;
+@font-color: @kentico-black;
 @font-color-inverted: @white;
 
 @link: @font-color;
@@ -31,15 +40,15 @@
 @link-hover: @link;
 @link-inverted-hover: @link-inverted;
 
-@heading-color: @blue;
+@heading-color: @kentico-blue;
 @heading-color-inverted: @white;
 // --------------------------------------------------
 
 // --------------------------------------------------
 // Items - components
 // --------------------------------------------------
-@item-color: @blue;
-@item-color-inverted: @white;
+@item-color: @kentico-grey-dark;
+@item-color-inverted: @kentico-black;
 
 @item-color-hover: darken(@item-color, 10%);
 @item-color-inverted-hover: @item-color-inverted;
@@ -58,7 +67,7 @@
 // --------------------------------------------------
 // Buttons
 // --------------------------------------------------
-@btn-color: @greyDark;
+@btn-color: @kentico-blue;
 @btn-color-inverted: @white;
 
 @btn-color-hover: darken(@btn-color, 10%);
@@ -75,19 +84,19 @@
 // --------------------------------------------------
 // Validation states - question marking
 // --------------------------------------------------
-@validation-success: #065f28;
+@validation-success: @kentico-green;
 @validation-success-inverted: @white;
 
-@validation-error: #ff0000;
+@validation-error: @kentico-red;
 @validation-error-inverted: @white;
 // --------------------------------------------------
 
 // --------------------------------------------------
 // Progress
 // --------------------------------------------------
-@progress: @grey;
+@progress: @kentico-grey-darker;
 @progress-inverted: @white;
-@progress-border: @grey;
+@progress-border: @kentico-grey-darker;
 // --------------------------------------------------
 
 // --------------------------------------------------
@@ -112,7 +121,7 @@
 // Navigation
 // --------------------------------------------------
 @nav: @white;
-@nav-inverted: @grey;
+@nav-inverted: @kentico-grey-darker;
 
 @nav-icon: @nav-inverted;
 @nav-icon-inverted: @nav;
@@ -132,21 +141,21 @@
 // --------------------------------------------------
 // Notify
 // --------------------------------------------------
-@notify: @blue;
-@notify-inverted: @white;
+@notify: @white;
+@notify-inverted: @kentico-black;
 
 @notify-link: @notify-inverted;
 
 @notify-link-hover: @notify-link;
 
-@notify-btn: @btn-color-inverted;
-@notify-btn-inverted: @btn-color;
+@notify-btn: @btn-color;
+@notify-btn-inverted: @notify;
 
 @notify-btn-hover: darken(@notify-btn, 10%);
 @notify-btn-inverted-hover: @notify-btn-inverted;
 
 @notify-icon: @notify;
-@notify-icon-inverted: @notify-inverted;
+@notify-icon-inverted: @kentico-blue;
 
 @notify-icon-hover: darken(@notify-icon, 10%);
 @notify-icon-inverted-hover: @notify-icon-inverted;
@@ -155,7 +164,7 @@
 // --------------------------------------------------
 // Drawer
 // --------------------------------------------------
-@drawer: @blueDark;
+@drawer: @kentico-grey-darker;
 @drawer-inverted: @white;
 
 @drawer-link: @drawer-inverted;

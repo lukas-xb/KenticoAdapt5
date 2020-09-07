@@ -36,7 +36,10 @@
           <div class="mcq__item-text">
             <div class="mcq__item-text-inner">
               <!-- Code - triple curly brackets are necessary to inject html directly in handlebars -->
-            {{{ code }}}
+            {{!-- {{{ code }}} --}}
+            <!-- Requirerd for Old Adapt solution -->
+          <pre><code class="language-{{code.lang}}">{{code.src}}</code></pre>
+
             </div>
           </div>
 
