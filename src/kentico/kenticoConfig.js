@@ -11,7 +11,7 @@ define({
   // courseId: 'business02-12', // Online marketing
   courseId: "business03-12", // Personalization
   // TODO: NEW CM
-  // language: 'default', // Language of course
+  // language: "default", // Language of course
   //TODO: Old CM
   language: "en", // Language of course
 
